@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './components/nav';
 import Form from './components/form';
-
+import Weare from './components/weare';
+import People from './components/people';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
           different perspectives to make the environment
           safer and healthier for us all.</p>
       </div>
-      
+      <Weare />
+      <People />
       <Form />
     </div>
   );

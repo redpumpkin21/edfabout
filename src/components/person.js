@@ -1,10 +1,10 @@
 const Person = () => {
     return(
-        <div>
+        <div className = 'grprsn'>
             <div className = 'person'>
                 <p>img here</p>
                 <p>Climate</p>
-                <p>Ilissa Ocko researches various kinds of pollution to examine 
+                <p className = 'sentence'>Ilissa Ocko researches various kinds of pollution to examine 
                    climate change's causes and solutions.</p>
                 <p>All climate experts</p>
             </div>

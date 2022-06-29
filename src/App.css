@@ -42,3 +42,20 @@
   justify-content:space-around
 }
 
+/* persons */
+
+.grprsn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.person{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.person .sentence{
+width: 200px
+}
