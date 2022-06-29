@@ -16,9 +16,9 @@ const Weare = () => {
             <div>
                 <ul>
                     <li>Our Story</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Pur impact</li>
+                    <li>Mission and values</li>
+                    <li>Commitment and values</li>
                     <li>Sustainability at EDF</li>
                 </ul>
             </div>
