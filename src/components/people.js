@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom"
 import { useState } from "react"
+import Person from "./person"
 
 const People = () => {
           
@@ -11,14 +12,11 @@ const People = () => {
                     from many different angles. Meet some of the experts who represent 
                     key parts of our work.</p>
             </div>
+
             <div>
-                <div>
-                    <p>quote image</p>
-                    <p>partner persceptive</p>
-                    <p>EDF does constructive, thoughtful, hard work, and that gains respect — and results.</p>
-                    <p>George P. Shultz</p>
-                    <p>Former U.S. Secretary of State</p>
-                </div>
+                <Person />
+            </div>
+               
                 <div>
                     <ul>
                         <li>Our Board</li>
@@ -27,7 +25,7 @@ const People = () => {
                     </ul>
                 </div>
                
-            </div>
+            
             
         </div>
         
